@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Bordie!</title>
+</head>
+<body>
+
+  <script>
+    function Random() {
+          var rnd = Math.floor(Math.random() * 29);
+          var random_images_array= ["Pictures/Bordies/1.jpg", "Pictures/Bordies/2.jpg", "Pictures/Bordies/3.jpg",
+          "Pictures/Bordies/4.jpg", "Pictures/Bordies/5.jpg", "Pictures/Bordies/6.jpg",
+          "Pictures/Bordies/7.jpg", "Pictures/Bordies/8.jpg", "Pictures/Bordies/9.jpg",
+          "Pictures/Bordies/10.jpg", "Pictures/Bordies/11.jpg", "Pictures/Bordies/12.jpg",
+          "Pictures/Bordies/13.jpg", "Pictures/Bordies/14.jpg", "Pictures/Bordies/15.jpg",
+          "Pictures/Bordies/16.jpg", "Pictures/Bordies/17.jpg", "Pictures/Bordies/18.jpg",
+          "Pictures/Bordies/19.jpg", "Pictures/Bordies/20.jpg", "Pictures/Bordies/21.jpg",
+          "Pictures/Bordies/22.jpg", "Pictures/Bordies/23.jpg", "Pictures/Bordies/24.jpg",
+          "Pictures/Bordies/25.jpg", "Pictures/Bordies/26.jpg", "Pictures/Bordies/27.jpg",
+          "Pictures/Bordies/28.jpg", "Pictures/Bordies/29.jpg",];
+          document.getElementById('myImg').src=random_images_array[rnd]
+          document.getElementById('tb').value = rnd;
+      }
+  </script>
+
+  <div>
+    <button style="height:50px" onclick="Random()">New Picture</button>
+  </div>
+  <img id="myImg" src="Pictures/Bordies/1.jpg" width="600"/ >
+
+<!-- FOR TESTING
+ <form name="rn">
+    <input type="text" id="tb" name="tb" />
+
+</form>
+-->
+
+
+  <br><br>
+
+
+</body>
+</html>
