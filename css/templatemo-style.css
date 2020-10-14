@@ -250,7 +250,7 @@ h4.widget-title {
   font-size: 16px;
   font-family: 'robotobold';
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 hr {
@@ -265,7 +265,7 @@ hr {
 }
 
 .page-section {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 /*---------------------------------------------------------
@@ -470,7 +470,7 @@ h3.profile-title {
 .projects-holder {
   margin-right: 0;
   margin-left: 0;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .projects-holder .col-md-4,
 .projects-holder .col-md-4 {

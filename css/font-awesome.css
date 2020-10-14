@@ -543,6 +543,9 @@
 .fa-instagram-square:before {
   content: "\f16d";
 }
+.fa-archway-square:before {
+  content: "\f557";
+}
 .fa-email-square:before {
   content: "\f0e0";
 }
@@ -626,6 +629,9 @@
 }
 .fa-instagram:before {
   content: "\f16d";
+}
+.fa-archway:before {
+  content: "\f557";
 }
 .fa-email:before {
   content: "\f0e0";
